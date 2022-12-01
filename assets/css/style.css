@@ -7,16 +7,18 @@ body {
   max-width: 500px;
 }
 
+/* HEADER */
 header {
-  margin-left: 20px;
-  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vh;
   width: 90vw;
   height: 40vh;
   background: linear-gradient(#0099cc, #006688);
-  box-shadow: 0px 5px 10px 1px;
+  box-shadow: 10px 10px 10px rgb(66, 64, 64);
 }
-header p {
-  font-weight: 400;
+header h1 {
+  font-weight: 500;
   font-size: large;
   color: white;
   text-align: center;
@@ -28,22 +30,132 @@ header img {
   padding-left: 45px;
   margin-top: 30px;
 }
+
 header div a {
   color: white;
   width: 90;
   display: block;
   text-align: center;
+  padding-bottom: 5px;
+  font-weight: 500;
+  text-decoration: none;
 }
 img {
   width: 30vw;
 }
 
-/* HEADER */
-
 /* MAIN */
+main {
+  padding-left: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vh;
+  width: 90vw;
+  background-color: white;
+}
+main div div {
+  padding-top: 5px;
 
-/* ELEMENTI NEL MAIN - ARTICLE */
+  margin-top: 20px;
+}
+main div div {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+main div div h1 {
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+div div p {
+  padding-top: 2em;
+  color: grey;
+  font-size: 0.7em;
+}
+.text {
+  padding-top: 1.5em;
+}
+.lista {
+  padding-top: 1.5em;
+}
+main p {
+  line-height: 1.5em;
+  font-size: 1.1em;
+  padding-top: 1em;
+}
+main p span {
+  color: rgb(167, 33, 120);
+}
+main ul span {
+  box-sizing: border-box;
+  line-height: 1.5em;
+  background-color: lightgray;
+  border-radius: 5px;
+  border: solid 1px darkgray;
+}
+main ul {
+  padding-left: 2em;
+  font-size: 1.1em;
+}
 
+.dol {
+  line-height: 1.5em;
+  padding-left: 2em;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+th {
+  background-color: blue;
+  padding: 30px 25px 15px 25px;
+  color: white;
+  font-size: large;
+  line-height: 1.5em;
+  vertical-align: bottom;
+}
+main table {
+  text-align: bottom;
+}
+h3 {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+}
+a {
+  color: rgb(61, 78, 179);
+}
+
+tr:nth-of-type(odd) {
+  background-color: lightgray;
+  border-top: grey;
+  border-bottom: gray;
+}
+main div ol li:first-of-type {
+  padding-top: 25px;
+}
+
+main div ul li:first-of-type {
+  padding-top: 25px;
+}
+main div table td {
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+main div h3 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1em;
+  font-weight: bolder;
+}
+#tab {
+  border-bottom: blue;
+}
+main div iframe {
+  width: 20%;
+}
 /* TABELLE */
 
 /* FORM */
