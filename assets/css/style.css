@@ -150,11 +150,13 @@ main div h3 {
   font-size: 1em;
   font-weight: bolder;
 }
-#tab {
-  border-bottom: blue;
+.video-container {
+  width: 90vw;
+  height: 40vh;
 }
-main div iframe {
-  width: 20%;
+#yt {
+  height: 30vh;
+  width: 40vh;
 }
 /* TABELLE */
 
