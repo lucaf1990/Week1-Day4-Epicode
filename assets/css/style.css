@@ -53,6 +53,7 @@ main {
   margin-top: 4vh;
   width: 90vw;
   background-color: white;
+  padding-bottom: 15px;
 }
 main div div {
   padding-top: 5px;
@@ -148,7 +149,7 @@ main div h3 {
   padding-bottom: 5px;
   font-weight: 500;
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.3em;
   font-weight: bolder;
 }
 
@@ -169,15 +170,22 @@ main div iframe {
   text-align: center;
   background-color: lightgray;
   font-size: 1em;
+  margin-right: 15px;
+}
+h4 {
+  font-size: 1.7em;
 }
 button {
   color: white;
   background-color: blue;
   margin-bottom: 20px;
 }
-main div.novità p {
+main div div.novità p {
   padding-bottom: 20px;
+  font-size: 1em;
+  color: black;
 }
+
 h6 {
   text-align: center;
   margin-top: 30px;
@@ -185,10 +193,10 @@ h6 {
   font-size: 1.5em;
   font-weight: bolder;
 }
-main div a {
+main div div a {
   font-weight: bold;
 }
-main div.artcor {
+main div div.artcor {
   background-color: lightgray;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -197,11 +205,14 @@ main div.artcor {
   border-color: rgb(148, 146, 146);
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-right: 15px;
 }
-main div.artcor p {
+main div div.artcor p {
   padding-top: 5px;
+  color: black;
 }
-main div.artcor p:last-child {
+
+main div div.artcor p:last-child {
   padding-top: 20px;
   text-align: end;
 }
@@ -209,6 +220,8 @@ main div.artcor p:last-child {
 
 /* FOOTER */
 footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
   color: white;
   padding-top: 30px;
